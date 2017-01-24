@@ -59,7 +59,6 @@ p {
 ---------------------------------------------------------------------------------------------------------------------------- */
 .home-background-container {
   background-image: url(../images/desktop_hd.png);
-  background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
 }
@@ -111,37 +110,94 @@ p {
 /* -------------------------------------------------------------------------------------------------------------------------
   OUR CONCEPT
 ---------------------------------------------------------------------------------------------------------------------------- */
-.our-concept-container {
+.concept-container {
   background-image: url(../images/concept-desktop.jpg);
-  background-repeat: no-repeat;
   background-size: cover;
   height: 40rem;
   opacity: .8;
   margin-top: 1rem;
 }
 
-.our-concept-container-inner {
+.concept-projects-about-container-inner {
   margin-top: 10%;
   background-color: transparent;
   height: 60vh;
   opacity: .8;
+  padding: 4rem;
 }
 
 @media only screen and (min-width: 768px) {
-  .our-concept-container {
+  .concept-container {
     height: 100vh;
     opacity: 1;
   }
 
-  .our-concept-container-inner {
-    margin-top: 10%;
+  .concept-projects-about-container-inner {
     background-color: #615F5F;
-    height: 60vh;
-    opacity: .8;
   }
 }
 
 /* -------------------------------------------------------------------------------------------------------------------------
   OUR PROJECTS
 ---------------------------------------------------------------------------------------------------------------------------- */
+.projects-container {
+  background-image: url(../images/project_desktop.jpg);
+  background-size: cover;
+  height: 40rem;
+  opacity: .8;
+  margin-top: 1rem;
+}
+
+.all-buttons {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  margin-right: 3rem;
+  margin-top: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .projects-container {
+    height: 100vh;
+    opacity: 1;
+  }
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------
+  OUR CLIENTS
+---------------------------------------------------------------------------------------------------------------------------- */
+.clients-container {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .clients-container {
+    display: block;
+    margin-top: 1rem;
+    background-color: #fff;
+    border: .1rem solid #c5c2c2;
+    height: 100vh;
+  }
+
+  .clients-container-inner {
+    margin-top: 10%;
+    background-color: transparent;
+    height: 60vh;
+    display: block;
+    text-align: center;
+    padding: 4rem;
+  }
+
+  .clients-icon-center {
+    display: inline-block;
+    width: 25rem;
+    height: 25rem;
+  }
+}
+ 
+
+
+
+
+
 
