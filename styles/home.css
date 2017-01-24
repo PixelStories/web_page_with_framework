@@ -16,12 +16,14 @@ h1 {
 
 h2 {
   font-size: 2.5rem;
+  color: #000;
 }
 
 p {
   font-size: 1.6rem;
   margin: 0;
   padding: 0;
+  color: #000;
 }
 
 @media only screen and (min-width: 768px) {
@@ -106,5 +108,40 @@ p {
   }
 }
 
+/* -------------------------------------------------------------------------------------------------------------------------
+  OUR CONCEPT
+---------------------------------------------------------------------------------------------------------------------------- */
+.our-concept-container {
+  background-image: url(../images/concept-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+  opacity: .8;
+  margin-top: 1rem;
+}
 
+.our-concept-container-inner {
+  margin-top: 10%;
+  background-color: transparent;
+  height: 60vh;
+  opacity: .8;
+}
+
+@media only screen and (min-width: 768px) {
+  .our-concept-container {
+    height: 100vh;
+    opacity: 1;
+  }
+
+  .our-concept-container-inner {
+    margin-top: 10%;
+    background-color: #615F5F;
+    height: 60vh;
+    opacity: .8;
+  }
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------
+  OUR PROJECTS
+---------------------------------------------------------------------------------------------------------------------------- */
 
