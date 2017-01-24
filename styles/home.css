@@ -1,0 +1,110 @@
+/* -------------------------------------------------------------------------------------------------------------------------
+  GENERAL SETTINGS
+---------------------------------------------------------------------------------------------------------------------------- */
+html {
+  height: auto;
+  width: 100vw;
+}
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", Arial;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  h1 {
+    font-size: 5rem;
+  }
+  
+  h2 {
+    font-size: 4rem;
+  }
+
+  p {
+    font-size: 3rem;
+  }
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------
+  HOME-BACKGROUND BILD
+---------------------------------------------------------------------------------------------------------------------------- */
+.home-background-container {
+  background-image: url(../images/desktop_hd.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.background-header {
+  color: #f12241;
+  letter-spacing: 1rem;
+  margin-top: 8rem;
+  padding: 0 5rem;
+  text-align: center;
+}
+
+.background-header-right,
+.background-header-left {
+  display: none;
+}
+
+@media only screen and (min-width: 992px) {
+  .red-rectangle {
+    background-color: #f12241;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100vh;
+  }
+
+  .background-header-left {
+    color: #f12241;
+    display: inline-block;
+    margin-left: -30rem;
+    font-size: 3.5rem;
+    height: 100vh;
+    line-height: 100vh;
+  }
+
+  .background-header-right {
+    color: #fff;
+    display: inline-block;
+    margin-left: 2rem;
+    font-size: 3.5rem;
+  }
+
+  .background-header {
+    display: none;
+  }
+}
+
+
+
