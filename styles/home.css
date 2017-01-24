@@ -111,15 +111,14 @@ p {
   OUR CONCEPT
 ---------------------------------------------------------------------------------------------------------------------------- */
 .concept-container {
-  background-image: url(../images/concept-desktop.jpg);
+  background-image: url(../images/concept-tablet-port.png);
   background-size: cover;
   height: 40rem;
-  opacity: .8;
   margin-top: 1rem;
 }
 
 .concept-projects-about-container-inner {
-  margin-top: 10%;
+  margin-top: 12%;
   background-color: transparent;
   height: 60vh;
   opacity: .8;
@@ -130,6 +129,12 @@ p {
   .concept-container {
     height: 100vh;
     opacity: 1;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .concept-container {
+    background-image: url(../images/concept-desktop.jpg);
   }
 
   .concept-projects-about-container-inner {
@@ -144,7 +149,7 @@ p {
   background-image: url(../images/project_desktop.jpg);
   background-size: cover;
   height: 40rem;
-  opacity: .8;
+
   margin-top: 1rem;
 }
 
@@ -152,7 +157,7 @@ p {
   position: absolute;
   right: 0;
   cursor: pointer;
-  margin-right: 3rem;
+  margin-right: 5rem;
   margin-top: 2rem;
 }
 
@@ -170,7 +175,7 @@ p {
   display: none;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
   .clients-container {
     display: block;
     margin-top: 1rem;
@@ -185,7 +190,6 @@ p {
     height: 60vh;
     display: block;
     text-align: center;
-    padding: 4rem;
   }
 
   .clients-icon-center {
@@ -194,10 +198,20 @@ p {
     height: 25rem;
   }
 }
- 
 
+/* -------------------------------------------------------------------------------------------------------------------------
+  ABOUT US
+---------------------------------------------------------------------------------------------------------------------------- */
+.about-container {
+  background-image: url(../images/about-desktop.jpg);
+  background-size: cover;
+  height: 40rem;
+  margin-top: 1rem;
+}
 
-
-
-
-
+@media only screen and (min-width: 768px) {
+  .about-container {
+    height: 100vh;
+    opacity: 1;
+  }
+}
