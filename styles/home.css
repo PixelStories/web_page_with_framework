@@ -1,0 +1,148 @@
+h1, p {
+  color: #000;
+}
+
+.main-container {
+  background-size: cover;
+  height: 40rem;
+  margin-top: 1rem;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------
+  HOME-BACKGROUND BILD
+---------------------------------------------------------------------------------------------------------------------------- */
+.home-background-container {
+  background-image: url(../images/desktop_hd.png);
+  background-size: cover;
+  height: 100vh;
+}
+
+.background-header {
+  color: #f12241;
+  letter-spacing: 1rem;
+  margin-top: 8rem;
+  text-align: center;
+}
+
+.background-header-right,
+.background-header-left {
+  display: none;
+}
+
+@media only screen and (min-width: 992px) {
+  .red-rectangle {
+    background-color: #f12241;
+    height: 100vh;
+  }
+
+  .background-header-left {
+    color: #f12241;
+    display: inline-block;
+    margin-left: -31rem;
+    line-height: 100vh;
+  }
+
+  .background-header-right {
+    color: #fff;
+    display: inline-block;
+    margin-left: 2rem;
+  }
+
+  .background-header {
+    display: none;
+  }
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------
+  OUR CONCEPT
+---------------------------------------------------------------------------------------------------------------------------- */
+.concept-container {
+  background-image: url(../images/concept-tablet-port.png);
+}
+
+.concept-projects-about-container-inner {
+  margin-top: 12%;
+  background-color: transparent;
+  height: 60vh;
+  opacity: .8;
+  padding: 4rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .concept-container {
+    height: 100vh;
+    opacity: 1;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .concept-container {
+    background-image: url(../images/concept-desktop.jpg);
+  }
+
+  .concept-projects-about-container-inner {
+    background-color: #615F5F;
+  }
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------
+  OUR PROJECTS
+---------------------------------------------------------------------------------------------------------------------------- */
+.projects-container {
+  background-image: url(../images/project_desktop.jpg);
+}
+
+.all-buttons {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  margin-right: 5rem;
+  margin-top: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .projects-container {
+    height: 100vh;
+    opacity: 1;
+  }
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------
+  OUR CLIENTS
+---------------------------------------------------------------------------------------------------------------------------- */
+.clients-container {
+  display: none;
+}
+
+@media only screen and (min-width: 992px) {
+  .clients-container {
+    display: block;
+    margin-top: 1rem;
+    border: .1rem solid #c5c2c2;
+    height: 100vh;
+  }
+
+  .clients-container-inner {
+    margin-top: 10%;
+    text-align: center;
+  }
+
+  .clients-icon-center {
+    width: 25rem;
+    height: 25rem;
+  }
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------
+  ABOUT US
+---------------------------------------------------------------------------------------------------------------------------- */
+.about-container {
+  background-image: url(../images/about-desktop.jpg);
+}
+
+@media only screen and (min-width: 768px) {
+  .about-container {
+    height: 100vh;
+    opacity: 1;
+  }
+}

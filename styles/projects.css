@@ -1,0 +1,29 @@
+.center-header,
+.responsive-paragraf {
+  display: none;
+}
+
+@media only screen and (min-width: 992px) {
+  .project-container {
+    background-image: url(../images/project_desktop.jpg);
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 1rem;
+  }
+
+  .center-header {
+    margin-top: 25%;
+    display: block;
+  }
+
+  .responsive-container {
+    background-image: url(../images/project-res.png);
+    background-size: cover;
+    height: 100vh;
+    margin-top: 1rem;
+  }
+
+  .responsive-paragraf {
+    display: block;
+  }
+}

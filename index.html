@@ -4,8 +4,153 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>Pixel Stories - With Framework</title>
+  <link rel="shortcut icon" href="images/favicon16.png" type="image/png">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!-- Egna style -->
+  <link rel="stylesheet" href="styles/home.css">
+  <!-- jQuery plugin -->
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
-  <h1>Pixel Stories - With Framework</h1>
+<!-- NAVIGATION MENU -->
+  <header>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarCollapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo@0,1x.png" alt="logo pixelstories">
+          </a>
+        </div>
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html" title="Home">Home</a></li>
+            <li><a href="projects.html" title="Projects">Projects</a></li>
+            <li><a href="about.html" title="About us">About us</a></li>
+            <li><a href="contact.html" title="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- HOME-BACKGROUND BILD -->
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-9 home-background-container">
+            <h1 class="background-header">The best designs tell a story</h1>
+          </div>
+          <div class="col-md-3 col-lg-3 col-xl-3 red-rectangle">
+            <h1 class="background-header-left">The best designs</h1>
+            <h1 class="background-header-right">tell a story</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- OUR CONCEPT -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 main-container concept-container">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 concept-projects-about-container-inner">
+                  <h1 class="text-center text-sm-center text-md-center text-lg-center text-xl-center">Our concept</h1>
+                  <p class="text-center text-sm-center text-md-center text-lg-center text-xl-center lead">We love challenge, and are passionate about what we do, giving your brand image a life. We listen to your story and translate it into our design with our experience. Send your brand story to your audience! We help you to give a form to your brand.</p>
+                </div>
+             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- OUR PROJECTS -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 main-container projects-container">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 concept-projects-about-container-inner">
+                  <h1 class="text-center text-sm-center text-md-center text-lg-center text-xl-center">Our projects</h1>
+                  <p class="text-center text-sm-center text-md-center text-lg-center text-xl-center lead">We work together with a client, as a single team. Our projects can include simple or advanced functionality, we create user-friendly interfaces with logical structures and harmonious design. We execute projects that bring results and help your business!</p>
+                  <form>
+                    <a class="btn btn-danger all-buttons" href="projects.html" role="button">Read more</a>
+                  </form>
+                </div>
+             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- OUR CLIENTS -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-12 col-xl-12 clients-container">
+              <div class="row">
+                <div class="col-md-12 col-lg-12 col-xl-12 clients-container-inner">
+                  <h1 class="text-center text-sm-center text-md-center text-lg-center text-xl-center">Some of our clients</h1>
+                  <img src="images/clients_icon_clothes.png" class="img-fluid clients-icon-center">
+                  <img src="images/clients_icon_coffee.png" class="img-fluid clients-icon-center">
+                  <img src="images/clients_icon_cafe.png" class="img-fluid clients-icon-center">
+                  <img src="images/clients_icon_adventure.png" class="img-fluid clients-icon-center">
+                </div>
+             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT US -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 main-container about-container">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 concept-projects-about-container-inner">
+                  <h1 class="text-center text-sm-center text-md-center text-lg-center text-xl-center">About us</h1>
+                  <p class="text-center text-sm-center text-md-center text-lg-center text-xl-center lead">We are creative digital-web bureau. We can clearly and consistently tell the stories about the design. We do design and develop websites, and we get result. Our professional team knows the most efficient and fastest way to the top.</p>
+                  <form>
+                    <a class="btn btn-danger all-buttons" href="about.html" role="button">Read more</a>
+                  </form>
+                </div>
+             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer_header">
+      <a href="index.html" rel="home"><img src="images/logo@0,1x.png" srcset="images/logo-lg.png 199w"  alt="Pixel Stories"></a>
+    </div>
+    <!-- FOOTER ADDRESS -->
+    <div class="address_contact">
+      Tomtebodavägen 3A<br>
+      171 65, Solna<br>
+      <a href=”tel:+46730000000”> 073 000 00 00</a><br>
+      pixelstories.se
+    </div>    
+    <!-- FOOTER SOCIAL -->
+    <nav class="social">
+      <ul>
+        <div class="social-wrap">
+          <li><a href="https://sv-se.facebook.com/"><img src="images/facebook.png" alt="facebook"></a></li>
+          <li><a href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram"></a></li>
+          <li><a href="https://twitter.com/?lang=sv"><img src="images/twitter.png" alt="twitter"></a></li>
+          <li><a href="https://se.linkedin.com/"><img src="images/linkedIn.png" alt="linkedIn"></a></li>
+        </div>
+      </ul>
+    </nav>
+  </footer>
 </body>
 </html>
