@@ -1,0 +1,93 @@
+/* -------------------------------------------------------------------------------------------------------------------------
+  GENERAL SETTINGS
+---------------------------------------------------------------------------------------------------------------------------- */
+html {
+  height: auto;
+  width: 100vw;
+}
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", Arial;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #000;
+}
+
+p {
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  h1 {
+    font-size: 5rem;
+  }
+  
+  h2 {
+    font-size: 4rem;
+  }
+
+  p {
+    font-size: 3rem;
+  }
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------
+  PROJECT-BACKGROUND BILD
+---------------------------------------------------------------------------------------------------------------------------- */
+.center-header,
+.responsive-paragraf {
+  display: none;
+}
+
+@media only screen and (min-width: 992px) {
+  .project-container {
+    background-image: url(../images/project_desktop.jpg);
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .center-header {
+    margin-top: 25%;
+    display: block;
+  }
+
+  .responsive-container {
+    background-image: url(../images/project-res.png);
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .responsive-paragraf {
+    display: block;
+  }
+}
+
+
+
+
+
+
+
