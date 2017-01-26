@@ -15,10 +15,33 @@
     margin-bottom: 15px;
 }
 
+.marginbtm10 {
+    margin-bottom: 10%;
+}
+.margintop {
+    margin-top: 20%;
+}
+
+@media screen and (min-width: 768px){ /*Bootstrap media query for tablet*/
+    .margintop {
+        margin-top: 0;
+    }
+    
+    .marginbtm10 {
+        margin-bottom: 1%;
+    }
+}
+
 .paddingtop1 {
     padding-top: 25%;
 }
 
 .paddingtop2 {
-    padding-top: 5%;
+    padding-top: 10%;
+}
+
+@media screen and (min-width: 768px){ /*Bootstrap media query for tablet*/
+    .paddingtop2 {
+        padding-top: 5%;
+    }
 }
