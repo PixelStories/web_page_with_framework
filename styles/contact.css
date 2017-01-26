@@ -1,0 +1,92 @@
+main {
+   margin: 0 2% 0 2%; 
+}
+
+/* ==============================================
+  HEADER SECTION
+  ============================ */
+header {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+/* Not visible in small screens */
+.page-title {
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 768px) {
+    .page-title {
+        display: block;
+    }
+    .heading-wrap {
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        background-image: url(../images/stockholm-lg-screens.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        text-align: center;
+        padding-top: 20%;
+    }
+}
+
+/* CONTACT FORM
+   ============================================================= */
+
+/* boostrap overrides */
+#bootstrap-overrides input {
+    border-radius: 0;
+}
+#bootstrap-overrides .input-left {
+    padding-right: 1px;
+}
+
+#bootstrap-overrides .input-right {
+    padding-left: 1px;
+}
+
+#bootstrap-overrides button {
+    width: 88px;
+    margin-bottom: 5px;
+    color: #fff;
+    background-color: #f12241;
+    border: none;
+    border-radius: 0;
+}
+
+#bootstrap-overrides .contact-box .row {
+    margin-bottom: 5px;
+}
+
+#bootstrap-overrides textarea {
+    border-radius: 0;
+}
+
+.client-support p {
+    font-style: italic;
+}
+
+.client-support span {
+    color: #f12241;
+    white-space: nowrap;
+}
+
+.client-support a {
+    color: #f12241;
+}
+/* MAP SECTION
+   ============================================================= */
+
+.location-map iframe {
+    margin: 0;
+    padding: 0;
+}
