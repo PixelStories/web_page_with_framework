@@ -26,7 +26,7 @@
     padding: 10px 0 10px 0;
 }
 
-#bootstrap-overrides ul {
+#bootstrap-overrides .social-icons {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -34,12 +34,12 @@
     margin: 0;
     padding: 0;
 }
-nav li {
+.social-icons li {
     width: 50px;
     height: 50px;
     padding: 5px;
 }
-#bootstrap-overrides a {
+#bootstrap-overrides .social-icons a {
     width: 50px;
     height: 50px;
 }
@@ -51,7 +51,7 @@ nav li {
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    #bootstrap-overrides ul {
+    #bootstrap-overrides .social-icons {
         padding: 0 30% 0 30%;
     }
 }
