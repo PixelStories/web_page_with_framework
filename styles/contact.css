@@ -54,7 +54,7 @@ header {
     padding-left: 1px;
 }
 
-#bootstrap-overrides button {
+#bootstrap-overrides .ctc {
     width: 88px;
     margin-bottom: 5px;
     color: #fff;
