@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Pixel Stories</title>
+    <!-- favicon -->
     <link rel="shortcut icon" href="images/favicon16.png" type="image/png">
-    <!-- Latest compiled and minified CSS -->
+    <!-- Bootsrtap cdn: Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <!-- Optional theme -->
+    <!-- Bootstrap cdn: Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Our own styles -->
     <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/normalize.css">
 </head>
 
@@ -47,8 +46,8 @@
         <main>
             <!-- ABOUT US SECTION -->
             <section class="container-fluid img-responsive" style="background: url('images/about_desktop.jpg') 0 0; background-size: cover;">
-                <div class="hidden-xs" style="height: 100vh;">
-                    <h1 class="text-center paddingtop1">About us</h1>
+                <div class="hidden-xs hidden-sm" style="height: 100vh;">
+                    <h1 class="text-center paddingtop1 textwhite">About us</h1>
                 </div>
             </section>
             <section class="container text-center margintop marginbtm10">
@@ -81,7 +80,7 @@
                             <img class="img-responsive" src="images/yoko.jpg" alt="Yoko">
                             <figcaption class="textwhite ourcolor col-xs-12">
                                 <p>Yoko<br>
-                                    Front-end developer</br>
+                                    Front-end developer<br>
                                     yoko@email.com<br>
                                     073 XXX XX XX<br>
                                 </p>
@@ -97,7 +96,7 @@
                             <img class="img-responsive" src="images/janaina.jpg" alt="Janaina">
                             <figcaption class="textwhite ourcolor col-xs-12">
                                 <p>Janaina<br>
-                                    Front-end developer</br>
+                                    Front-end developer<br>
                                     janaina@email.com<br>
                                     072 XXX XX XX<br>
                                 </p>
@@ -112,7 +111,7 @@
                             <img class="img-responsive" src="images/svetlana.jpg" alt="Svetlana">
                             <figcaption class="textwhite ourcolor col-xs-12">
                                 <p>Svetlana<br>
-                                Front-end developer</br>
+                                Front-end developer<br>
                                 svetlana@email.com<br>
                                     072 XXX XX XX<br>
                                 </p>
@@ -127,29 +126,31 @@
             </section>
         </main>
         <!-- FOOTER -->
-        <footer>
-            <div>
-                <a href="index.html" rel="home"><img src="images/logo@0,1x.png" srcset="images/logo-lg.png 199w"  alt="Pixel Stories"></a>
+        <footer class="row footer">
+            <!-- HEADER -->
+            <div class="col-xs-12 col-md-5 text-center footer-header">
+                <a href="index.html" rel="home"><img src="images/logo@0,1x.png"  alt="Pixel Stories"></a>
             </div>
             <!-- FOOTER ADDRESS -->
-            <div>
+            <div class="col-xs-12 col-md-2 text-center address-contact">
                 Tomtebodavägen 3A<br>
                 171 65, Solna<br>
                 <a href=”tel:+46730000000”> 073 000 00 00</a><br>
                 pixelstories.se
             </div>    
             <!-- FOOTER SOCIAL -->
-            <nav>
-                <ul>
-                    <div class="social-wrap">
-                        <li><a href="https://sv-se.facebook.com/"><img src="images/facebook.png" alt="facebook"></a></li>
-                        <li><a href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram"></a></li>
-                        <li><a href="https://twitter.com/?lang=sv"><img src="images/twitter.png" alt="twitter"></a></li>
-                        <li><a href="https://se.linkedin.com/"><img src="images/linkedIn.png" alt="linkedIn"></a></li>
-                    </div>
-                </ul>  
+            <nav class="col-xs-12 col-md-5 social">
+                <ul class="social-icons">
+                    <li><a href="https://sv-se.facebook.com/"><img src="images/facebook.png" alt="facebook"></a></li>
+                    <li><a href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram"></a></li>
+                    <li><a href="https://twitter.com/?lang=sv"><img src="images/twitter.png" alt="twitter"></a></li>
+                    <li><a href="https://se.linkedin.com/"><img src="images/linkedIn.png" alt="linkedIn"></a></li>
+                </ul> 
             </nav>    
         </footer>
-    <script src="bootstrap-3.3.7/dist/js/bootstrap.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap cdn: Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     </body>
 </html>
