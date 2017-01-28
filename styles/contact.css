@@ -12,19 +12,27 @@ header {
     padding: 0;
     margin: 0;
 }
-
-/* Not visible in small screens */
+/* fixed header covers the contact_box heading if
+ * no height is given to this element 
+ */
 .page-title {
-    display: none;
+    display: block;
+    height: 15vh;
     margin: 0;
     padding: 0;
 }
 
+/* Not visible in small screens */
+.heading-wrap {
+    display: none;
+}
+
 @media (min-width: 768px) {
     .page-title {
-        display: block;
+        height: auto;
     }
     .heading-wrap {
+        display: block;
         width: 100vw;
         height: 100vh;
         margin: 0;
@@ -89,4 +97,5 @@ header {
 .location-map iframe {
     margin: 0;
     padding: 0;
+    border: none;
 }
