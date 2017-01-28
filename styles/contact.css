@@ -45,6 +45,9 @@ header {
         text-align: center;
         padding-top: 20%;
     }
+    .heading-wrap h1 {
+        font-size: 32px;
+    }
 }
 
 /* CONTACT FORM
